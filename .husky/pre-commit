@@ -1,0 +1,2 @@
+nix-shell -p nodejs_22 --run "node scripts/validate.mjs"
+claude plugin validate .

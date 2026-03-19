@@ -1,0 +1,25 @@
+{
+  "name": "ai-marketplace",
+  "version": "1.0.0",
+  "description": "A plugin marketplace that works with both **Claude Code** and **Cursor**.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "validate": "nix-shell -p nodejs_22 --run 'node scripts/validate.mjs'",
+    "prepare": "husky"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/snowflake-eng/ai-marketplace.git"
+  },
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/snowflake-eng/ai-marketplace/issues"
+  },
+  "homepage": "https://github.com/snowflake-eng/ai-marketplace#readme",
+  "devDependencies": {
+    "husky": "^9.1.7"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "ai-marketplace",
+  "owner": {
+    "name": "ES AI DevEx",
+    "email": "santa@northpole.com"
+  },
+  "metadata": {
+    "description": "A plugin marketplace for Claude Code and Cursor.",
+    "version": "0.1.0",
+    "pluginRoot": "plugins"
+  },
+  "plugins": [
+    {
+      "name": "git-workflows",
+      "source": "./plugins/git-workflows",
+      "description": "Git workflow skills for commits, PRs, CI fixes, and merge conflict resolution"
+    }
+  ]
+}
